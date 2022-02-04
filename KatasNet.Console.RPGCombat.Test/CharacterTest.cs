@@ -192,7 +192,7 @@ namespace KatasNet.Console.RPGCombat.Test
 
 
         [Fact]
-        public void CharacterShouldNotAtackEnemies()
+        public void CharacterShouldAtackEnemies()
         {
             //Arrange
             var character1 = new RangedCharacter()
